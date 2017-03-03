@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  width: 80%;
+}
+body{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#header{
+  background-image: url(images/athena.png);
+  box-shadow: 10px 5px 5px grey;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.logo{
+  width: 350px;
+  height: 280px;
+  opacity: 0.7;
+}
+h1{
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  color: #ac0a23;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+h2{
+  margin-bottom: 10px;
+  font-family: 'Acme', sans-serif;
+}
+.choose-player{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.picture{
+border-radius: 5px;
+height: auto;
+}
+button{
+  width: 100%;
+}
+.result{
+  border: 5px solid red;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.vs{
+  font-size: 30px;
+}
+h3{
+  font-family: 'Acme', sans-serif;
+}
+.arrow{
+  font-size: 30px;
+}
