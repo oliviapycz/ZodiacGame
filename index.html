@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     <title>THE ZODIAC GAME</title>
   </head>
 
@@ -24,7 +24,7 @@
 
       <section class="choose-player">
         <div class="picture">
-        <button class="seiya" type="button" name="button">  <img  src="images/seiya.png" alt="seiya"></button>
+        <button class="seiya" type="button" name="button" onclick="functionSeiya">  <img  src="images/seiya.png" alt="seiya"></button>
         </div>
 
         <div class="picture">
@@ -49,7 +49,7 @@
 
         <div class="player-vs-computer">
           <div class="player">
-            <!-- img choix du joueur -->
+            <p class="box"></p>  <!-- img choix du joueur ici p[0]-->
           </div>
 
           <div class="vs">
@@ -58,7 +58,7 @@
           </div>
 
           <div class="computer">
-            <!-- img choix de l'ordinateur -->
+            <p class="box"></p> <!-- img choix de l'ordinateur ici p[1]-->
           </div>
         </div>
 
@@ -68,16 +68,16 @@
           <h4>>>>></h4>
         </div>
 
-        <div class="">
-          <!-- nom de l'attaque -->
+        <div class="attaque">
+          <p></p>  <!-- nom de l'attaque : ici p[2]-->
         </div>
 
         <div class="">
-          <!-- img du gagnant -->
+          <p></p> <!-- img du gagnant ici p[3]-->
         </div>
 
-        <div class="">
-          <!-- you win you lose -->
+        <div class="win-lose">
+          <p></p>  <!-- you win you lose : ici p[4] -->
         </div>
 
       </section>

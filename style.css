@@ -68,3 +68,13 @@ h3{
 .arrow{
   font-size: 30px;
 }
+.box{
+  border: 1px solid green;
+  width: 20px;
+  height: 20px;
+}
+.player-vs-computer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
